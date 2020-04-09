@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
 
-  s.dependency 'Analytics', '~> 3.7.0'
+  s.dependency 'Analytics', :git => 'https://github.com/segmentio/analytics-ios.git', :tag => '3.8.0-beta.1'
   s.dependency 'Amplitude-iOS', '~> 4.8.0'
 end
