@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "752E74242669AF0200BDFBD0"
-               BuildableName = "Segment-Amplitude-tvOS.framework"
+               BuildableName = "Segment_Amplitude.framework"
                BlueprintName = "Segment-Amplitude-tvOS"
                ReferencedContainer = "container:Segment-Amplitude.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "752E74242669AF0200BDFBD0"
-            BuildableName = "Segment-Amplitude-tvOS.framework"
+            BuildableName = "Segment_Amplitude.framework"
             BlueprintName = "Segment-Amplitude-tvOS"
             ReferencedContainer = "container:Segment-Amplitude.xcodeproj">
          </BuildableReference>

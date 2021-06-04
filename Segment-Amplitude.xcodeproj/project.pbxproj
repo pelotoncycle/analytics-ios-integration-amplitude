@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		752E74262669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344232400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		752E74272669AF0200BDFBD0 /* SEGAmplitudeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344222400A4100007ECCD /* SEGAmplitudeIntegration.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
+		752E74262669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344232400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752E74272669AF0200BDFBD0 /* SEGAmplitudeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344222400A4100007ECCD /* SEGAmplitudeIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		752E74282669AF0200BDFBD0 /* Segment_Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = A383441A2400A3CB0007ECCD /* Segment_Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		752E742A2669AF0200BDFBD0 /* SEGAmplitudeIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344252400A4100007ECCD /* SEGAmplitudeIntegration.m */; };
 		752E742B2669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344242400A4100007ECCD /* SEGAmplitudeIntegrationFactory.m */; };
 		752E742D2669AF0200BDFBD0 /* Segment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0E73CB254B75DF00349B58 /* Segment.framework */; platformFilter = ios; };
 		752E742E2669AF0200BDFBD0 /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383442E2400AE310007ECCD /* Amplitude.framework */; platformFilter = ios; };
-		A38344262400A4100007ECCD /* SEGAmplitudeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344222400A4100007ECCD /* SEGAmplitudeIntegration.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		A38344272400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344232400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
+		A38344262400A4100007ECCD /* SEGAmplitudeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344222400A4100007ECCD /* SEGAmplitudeIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38344272400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344232400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38344282400A4100007ECCD /* SEGAmplitudeIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344242400A4100007ECCD /* SEGAmplitudeIntegrationFactory.m */; };
 		A38344292400A4100007ECCD /* SEGAmplitudeIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344252400A4100007ECCD /* SEGAmplitudeIntegration.m */; };
 		A383442F2400AE310007ECCD /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383442E2400AE310007ECCD /* Amplitude.framework */; platformFilter = ios; };
