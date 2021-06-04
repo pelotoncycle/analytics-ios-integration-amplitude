@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752E74262669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344232400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
+		752E74272669AF0200BDFBD0 /* SEGAmplitudeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344222400A4100007ECCD /* SEGAmplitudeIntegration.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
+		752E74282669AF0200BDFBD0 /* Segment_Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = A383441A2400A3CB0007ECCD /* Segment_Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752E742A2669AF0200BDFBD0 /* SEGAmplitudeIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344252400A4100007ECCD /* SEGAmplitudeIntegration.m */; };
+		752E742B2669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344242400A4100007ECCD /* SEGAmplitudeIntegrationFactory.m */; };
+		752E742D2669AF0200BDFBD0 /* Segment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0E73CB254B75DF00349B58 /* Segment.framework */; platformFilter = ios; };
+		752E742E2669AF0200BDFBD0 /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A383442E2400AE310007ECCD /* Amplitude.framework */; platformFilter = ios; };
 		A38344262400A4100007ECCD /* SEGAmplitudeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344222400A4100007ECCD /* SEGAmplitudeIntegration.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		A38344272400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A38344232400A4100007ECCD /* SEGAmplitudeIntegrationFactory.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		A38344282400A4100007ECCD /* SEGAmplitudeIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A38344242400A4100007ECCD /* SEGAmplitudeIntegrationFactory.m */; };
@@ -50,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		752E74332669AF0200BDFBD0 /* Segment-Amplitude-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Segment-Amplitude-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752E743E2669B0CE00BDFBD0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A38344172400A3CB0007ECCD /* Segment_Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A383441A2400A3CB0007ECCD /* Segment_Amplitude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Segment_Amplitude.h; sourceTree = "<group>"; };
 		A383441B2400A3CB0007ECCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +85,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		752E742C2669AF0200BDFBD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752E742D2669AF0200BDFBD0 /* Segment.framework in Frameworks */,
+				752E742E2669AF0200BDFBD0 /* Amplitude.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A38344142400A3CB0007ECCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,11 +115,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		752E743D2669B09700BDFBD0 /* Segment-Amplitude-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				752E743E2669B0CE00BDFBD0 /* Info.plist */,
+			);
+			path = "Segment-Amplitude-tvOS";
+			sourceTree = "<group>";
+		};
 		A383440D2400A3CB0007ECCD = {
 			isa = PBXGroup;
 			children = (
 				A38344532400B67B0007ECCD /* Amplitude.framework */,
 				A38344192400A3CB0007ECCD /* Segment-Amplitude */,
+				752E743D2669B09700BDFBD0 /* Segment-Amplitude-tvOS */,
 				A38344352400AFF60007ECCD /* CarthageExample */,
 				A38344182400A3CB0007ECCD /* Products */,
 				A383442B2400AE2E0007ECCD /* Frameworks */,
@@ -113,6 +140,7 @@
 			children = (
 				A38344172400A3CB0007ECCD /* Segment_Amplitude.framework */,
 				A38344342400AFF60007ECCD /* CarthageExample.app */,
+				752E74332669AF0200BDFBD0 /* Segment-Amplitude-tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +189,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		752E74252669AF0200BDFBD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752E74262669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.h in Headers */,
+				752E74272669AF0200BDFBD0 /* SEGAmplitudeIntegration.h in Headers */,
+				752E74282669AF0200BDFBD0 /* Segment_Amplitude.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A38344122400A3CB0007ECCD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +212,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		752E74242669AF0200BDFBD0 /* Segment-Amplitude-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752E74302669AF0200BDFBD0 /* Build configuration list for PBXNativeTarget "Segment-Amplitude-tvOS" */;
+			buildPhases = (
+				752E74252669AF0200BDFBD0 /* Headers */,
+				752E74292669AF0200BDFBD0 /* Sources */,
+				752E742C2669AF0200BDFBD0 /* Frameworks */,
+				752E742F2669AF0200BDFBD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segment-Amplitude-tvOS";
+			productName = "Segment-Amplitude";
+			productReference = 752E74332669AF0200BDFBD0 /* Segment-Amplitude-tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A38344162400A3CB0007ECCD /* Segment-Amplitude */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A383441F2400A3CB0007ECCD /* Build configuration list for PBXNativeTarget "Segment-Amplitude" */;
@@ -243,12 +299,20 @@
 			projectRoot = "";
 			targets = (
 				A38344162400A3CB0007ECCD /* Segment-Amplitude */,
+				752E74242669AF0200BDFBD0 /* Segment-Amplitude-tvOS */,
 				A38344332400AFF60007ECCD /* CarthageExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		752E742F2669AF0200BDFBD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A38344152400A3CB0007ECCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +355,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		752E74292669AF0200BDFBD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752E742A2669AF0200BDFBD0 /* SEGAmplitudeIntegration.m in Sources */,
+				752E742B2669AF0200BDFBD0 /* SEGAmplitudeIntegrationFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A38344132400A3CB0007ECCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +414,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		752E74312669AF0200BDFBD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Segment-Amplitude-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Amplitude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		752E74322669AF0200BDFBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Segment-Amplitude-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Amplitude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		A383441D2400A3CB0007ECCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,6 +683,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		752E74302669AF0200BDFBD0 /* Build configuration list for PBXNativeTarget "Segment-Amplitude-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752E74312669AF0200BDFBD0 /* Debug */,
+				752E74322669AF0200BDFBD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A38344112400A3CB0007ECCD /* Build configuration list for PBXProject "Segment-Amplitude" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
