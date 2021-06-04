@@ -57,7 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		752E74332669AF0200BDFBD0 /* Segment-Amplitude-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Segment-Amplitude-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		752E74332669AF0200BDFBD0 /* Segment_Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		752E743E2669B0CE00BDFBD0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A38344172400A3CB0007ECCD /* Segment_Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A383441A2400A3CB0007ECCD /* Segment_Amplitude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Segment_Amplitude.h; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 			children = (
 				A38344172400A3CB0007ECCD /* Segment_Amplitude.framework */,
 				A38344342400AFF60007ECCD /* CarthageExample.app */,
-				752E74332669AF0200BDFBD0 /* Segment-Amplitude-tvOS.framework */,
+				752E74332669AF0200BDFBD0 /* Segment_Amplitude.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 			);
 			name = "Segment-Amplitude-tvOS";
 			productName = "Segment-Amplitude";
-			productReference = 752E74332669AF0200BDFBD0 /* Segment-Amplitude-tvOS.framework */;
+			productReference = 752E74332669AF0200BDFBD0 /* Segment_Amplitude.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A38344162400A3CB0007ECCD /* Segment-Amplitude */ = {
@@ -435,7 +435,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Amplitude";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Segment_Amplitude;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 			};
@@ -462,7 +462,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Amplitude";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Segment_Amplitude;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 			};
