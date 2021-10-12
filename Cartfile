@@ -1,2 +1,2 @@
-github "amplitude/Amplitude-iOS" ~> 7.0.1
+github "daltonclaybrook/Amplitude-iOS" "dalton/tvos-carthage-8.4.0"
 github "segmentio/analytics-ios"
