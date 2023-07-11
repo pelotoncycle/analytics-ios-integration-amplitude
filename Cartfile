@@ -1,2 +1,2 @@
-github "daltonclaybrook/Amplitude-iOS" "epau/tvos-carthage-8.4.0-broken-scheme-removed"
+github "pelotonfork-amplitude-ios" "epau/tvos-carthage-8.4.0-broken-scheme-removed"
 github "pelotoncycle/pelotonfork-segment-analytics" "peloton-internal"
